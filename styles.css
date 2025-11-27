@@ -1,22 +1,45 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   justify-content: center;
   display: flex;
+  margin: 0;
+}
 
+.contact {
+  background-color: #66C7F4;
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  background-color: whitesmoke;
   padding: 20px;
+  border: 1px solid lightblue;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .profile-header {
   display: flex;
+  gap: 10px;
+  align-items:  center;
+  margin-bottom: 10px;
 }
 
 .cont-header {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .profile-picture {
@@ -25,12 +48,33 @@ body {
   height: 50px;
 }
 
+.profile-id {
+  font-weight: bolder;
+}
+
 .main-photo {
   width: 500px;
   height: 500px;
+  margin-bottom: 10px;
+}
+
+.interaction {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
 }
 
 .likes-comments {
   display: flex;
   flex-direction: column;
+}
+
+.likes {
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.heart:hover {
+  cursor: pointer;
+  transform: scale(1.12);
 }

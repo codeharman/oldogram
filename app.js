@@ -23,7 +23,7 @@ const posts = [
         location: "Paris, France",
         avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQnpO-wwaWGyxHPlUC2pnhBfLdN0bjTeqaZg&s",
         post: "https://d7hftxdivxxvm.cloudfront.net/?height=800&quality=50&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2Ff88jfCM8HiVpQIAaLE92Hg%2Fmain.jpg&width=782",
-        comment: "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
+        comment: "gm friends! which coin are YOU stacking up today??",
         likes: 232
     }
 ]
@@ -45,7 +45,7 @@ const template = document.querySelector(".container")
   const counte = clone.querySelector('.likes')
 
   let count = 0
-  
+
   heart.addEventListener('click', () => {
     count++
     counte.textContent = post.likes + count
