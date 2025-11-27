@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  display: flex;
+
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+}
+
+.cont-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.main-photo {
+  width: 500px;
+  height: 500px;
+}
+
+.likes-comments {
+  display: flex;
+  flex-direction: column;
+}
